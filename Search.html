@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Search....." id="searching"> 
+    <button onclick="search()">Search</button><br>
+    <input type="text" placeholder="Provide table heading" id="data"> 
+    <button onclick="ascending()">Ascending</button>
+    <button onclick="descending()">Descending</button>
+    <div >
+        <table id="mytable" border="2px" width="100%">
+            <tr>
+                <th>Image</th>
+                <th>age</th>
+                <th>email</th>
+                <th>gender</th>
+                <th>id name</th>
+                <th>city</th>
+                <th>username</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </table>
+        <button id="data" onclick=getData() style="color: white;background-color: blue;padding: 15px;">More Data</button>
+        <img src="" id="checkingss">
+    </div>
+        <script src="./FileModule.js">
+        </script>
+</body>
+</html>
